@@ -1,5 +1,15 @@
 function shortcut(s1, s2) {
-  // your code here
+  if(s1===""||s2==="")
+  {
+	  return "";
+  }
+	else
+  {
+	  const arr1=s1.split("");
+	  const arr2=s2.split("");
+
+	  return arr1[0]+arr2[0];
+  }
 }
 
 // Do not change the code below.
